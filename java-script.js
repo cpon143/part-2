@@ -11,7 +11,7 @@ if (hasDriversLicense) console.log(`I can drive : D`);
 /********************Function************************************************ */
 //  calling   / running   /invoking
 
-function name(){
+function name() {
     console.log('Md Mazharul Haque')
 }
 
@@ -20,11 +20,13 @@ name();
 name();
 name();
 
-function fruitProcessor(apple,orange){
-    console.log(apple,orange)
-    console.log(`"Juice of ${apple} apple and ${orange} orange"`)
-}
+function fruitProcessor(apple, orange) {
+    // console.log(apple, orange)
+    const juice = `Juice of ${apple} apple and ${orange} orange`
 
-fruitProcessor(4,0)
-fruitProcessor(4,5)
-fruitProcessor(6,10)
+    return  juice;
+}
+// juice; https://www.todaypk.video/
+// fruitProcessor(4, 0)
+// fruitProcessor(4, 5)
+// fruitProcessor(6, 10)

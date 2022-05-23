@@ -26,6 +26,8 @@ function fruitProcessor(apple, orange) {
 
     return  juice;
 }
-// fruitProcessor(4, 0) https://www.todaypk.video/
-// fruitProcessor(4, 5)
-// fruitProcessor(6, 10)
+
+const appleJuice=fruitProcessor(5,0);
+console.log(appleJuice);
+const appleOrangeJuice=fruitProcessor(5,6);
+console.log(appleOrangeJuice);

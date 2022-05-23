@@ -1,10 +1,10 @@
-'use strict';
+/*'use strict';
 
 let hasDriversLicense = false;
 const passTest = true;
 
 if (passTest) hasDriversLicense = true;
-if (hasDriversLicense) console.log(`I can drive : D`);
+if (hasDriversLicense) console.log(`I can drive : D`);*/
 
 // const interface =audio;
 
@@ -21,12 +21,11 @@ name();
 name();
 
 function fruitProcessor(apple, orange) {
-    // console.log(apple, orange)
-    const juice = `Juice of ${apple} apple and ${orange} orange`
+    console.log(apple, orange)
+    const juice = `Juice of ${apple} apple and ${orange} orange`;
 
     return  juice;
 }
-// juice; https://www.todaypk.video/
-// fruitProcessor(4, 0)
+// fruitProcessor(4, 0) https://www.todaypk.video/
 // fruitProcessor(4, 5)
 // fruitProcessor(6, 10)

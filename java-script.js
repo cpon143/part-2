@@ -64,7 +64,7 @@ console.log(yearsUntilRetirement(1980,'Bobs'));*/
 
 /**********Function calling other function********************************************** */
 
-function cutFruitPicses(fruit) {
+/*function cutFruitPicses(fruit) {
     return fruit * 4;   
 }
 
@@ -74,4 +74,24 @@ const orangePicses = cutFruitPicses(oranges);
 const juice = `juice of ${applePicses} picses apples and ${orangePicses} picese of orange juice`;
 return juice;
 }
-console.log(fruitProcessor(4,5));
+console.log(fruitProcessor(4,5));*/
+
+/********************Challenge1*******************/
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+console.log(calcAverage(3,4,5));
+
+// const calcAverageKoalas = (65, 54, 49) >= (65 + 54 + 49) / 3;
+// const checkWinner = function(avgDolhins,avgKoalas){
+//     x
+// Test data:
+// § Data 1: Dolphins score 44, 23 and 71. Koalas score 65, 54 and 49
+// § Data 2: Dolphins score 85, 54 and 41. Koalas score 23, 34 and 27
+
+
+// test1
+
+const aveKoalas=calcAverage(44,23,71);
+const aveDolhins = calcAverage(65,54,49);
+console.log(aveKoalas);
+console.log(aveDolhins);
+

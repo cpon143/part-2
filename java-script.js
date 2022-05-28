@@ -146,3 +146,21 @@ const checkwinner = function (scoreKoalas, scoreDolphins) {
 console.log(checkwinner(scoreKoalas,scoreDolphins));
 // by direct value
 console.log(checkwinner(500,200));*/
+
+/*************************************ARRAY**************************************** */
+
+const friend1 = 'Manjit';
+const friend2 = 'Shadab';
+const friend3 = 'Vishal';
+const friend4 = 'Munni';
+const friends = ['Manjeet', 'Shadab', 'Vishal', 'Munni'];
+console.log(friends);
+console.log(friends[0]);
+console.log(friends[3]);
+
+const year = new Array(2002, 2003, 2000, 2005, 2022);
+console.log(year);
+console.log(friends.length);
+console.log(friends[friends.length - 2]);
+friends[3]='Sonu';
+console.log(friends);

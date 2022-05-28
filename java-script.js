@@ -77,21 +77,72 @@ return juice;
 console.log(fruitProcessor(4,5));*/
 
 /********************Challenge1*******************/
-const calcAverage = (a, b, c) => (a + b + c) / 3;
-console.log(calcAverage(3,4,5));
 
 // const calcAverageKoalas = (65, 54, 49) >= (65 + 54 + 49) / 3;
 // const checkWinner = function(avgDolhins,avgKoalas){
 //     x
+
+/*
+Create an arrow function 'calcAverage' to calculate the average of 3 scores
+2. Use the function to calculate the average for both teams
+3. Create a function 'checkWinner' that takes the average score of each team
+as parameters ('avgDolhins' and 'avgKoalas'), and then logs the winner
+to the console, together with the victory points, according to the rule above.
+Example: "Koalas win (30 vs. 13)"
+4. Use the 'checkWinner' function to determine the winner for both Data 1 and
+Data 2
+5. Ignore draws this time
+*/
 // Test data:
 // § Data 1: Dolphins score 44, 23 and 71. Koalas score 65, 54 and 49
 // § Data 2: Dolphins score 85, 54 and 41. Koalas score 23, 34 and 27
 
 
 // test1
+/*const calcAverage = (a, b, c) => (a + b + c) / 3;
+// console.log(calcAverage(3, 4, 5));
 
-const aveKoalas=calcAverage(44,23,71);
-const aveDolhins = calcAverage(65,54,49);
-console.log(aveKoalas);
-console.log(aveDolhins);
+const scoreKoalas = calcAverage(44, 23, 71);
+const scoreDolphins = calcAverage(65, 54, 49);
 
+const checkwinner = function (scoreKoalas, scoreDolphins) {
+    if (scoreKoalas > 2 * scoreDolphins) {
+        const winner = `"Koalas win 🏆 (${scoreKoalas} vs. ${scoreDolphins})"`
+        return winner;
+    }
+    else if (scoreDolphins > 2 * scoreKoalas) {
+        const winner = `"Dolphins win 🏆 (${scoreDolphins} vs. ${scoreKoalas})"`
+        return winner;
+    }
+    else {
+        const winner = "No one can Win";
+        return winner;
+    }
+}
+const win=checkwinner(scoreKoalas,scoreDolphins);
+console.log(win);*/
+
+
+/**Test 2 */
+/*const calcAverage = (a, b, c) => (a + b + c) / 3;
+const scoreKoalas = calcAverage(23, 34 , 27);
+const scoreDolphins = calcAverage(85, 54 , 41);
+
+const checkwinner = function (scoreKoalas, scoreDolphins) {
+    if (scoreKoalas > 2 * scoreDolphins) {
+        const winner = `"Koalas win 🏆 (${scoreKoalas} vs. ${scoreDolphins})"`
+        return winner;
+    }
+    else if (scoreDolphins > 2 * scoreKoalas) {
+        const winner = `"Dolphins win 🏆 (${scoreDolphins} vs. ${scoreKoalas})"`
+        return winner;
+    }
+    else {
+        const winner = "No teams wins......";
+        return winner;
+    }
+}
+// const win=checkwinner(scoreKoalas,scoreDolphins);
+console.log(checkwinner(scoreKoalas,scoreDolphins));
+// by direct value
+console.log(checkwinner(500,200));*/

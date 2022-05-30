@@ -149,7 +149,7 @@ console.log(checkwinner(500,200));*/
 
 /*************************************ARRAY**************************************** */
 
-const friend1 = 'Manjit';
+/*const friend1 = 'Manjit';
 const friend2 = 'Shadab';
 const friend3 = 'Vishal';
 const friend4 = 'Munni';
@@ -168,4 +168,11 @@ console.log(friends);
 const firstName = 'Jonas';
 const jonas = [firstName, 'Manjeet', 2022 - 2002, friends];
 console.log(jonas);
-console.log(jonas.length);
+console.log(jonas.length);*/
+
+/*************Some basic operation of array*****************/
+
+const friends = ['Manjeet','Shadab', 'Vishal', 'Vivek'];
+console.log(friends);
+friends.push('Mazharul');
+console.log(friends);

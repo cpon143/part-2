@@ -172,7 +172,31 @@ console.log(jonas.length);*/
 
 /*************Some basic operation of array*****************/
 
-const friends = ['Manjeet','Shadab', 'Vishal', 'Vivek'];
+// Insertion an element in array from end 
+// const friends = ['Manjeet','Shadab', 'Vishal', 'Vivek'];
+// console.log(friends);
+// friends.push('Mazharul');
+
+// insertion an element in array from first 
+// const friends = ['Manjeet', 'Shadab', 'Vishal', 'Vivek'];
+// const newLength = friends.unshift('Haque');
+// console.log(friends);
+// console.log(newLength);
+
+// removed an element of array from last
+// const friends = ['manjeet', 'Shadab', 'Vishal', 'Vivek'];
+// const remove = friends.pop();
+// console.log(friends);
+
+// removed an element of arry from start
+const friends = ['manjeet', 'Shadab', 'Vishal', 'Vivek', 'Mazharul'];
+constnewLength =friends.shift();
 console.log(friends);
-friends.push('Mazharul');
-console.log(friends);
+
+
+const colors = ['blue', 'green', 'white'];
+colors.forEach(function callback(value, index) {
+  console.log(value, index);
+});
+    
+

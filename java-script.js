@@ -193,7 +193,14 @@ console.log(friends);
 console.log(friends.indexOf('Mazharul'));
 console.log(friends.indexOf('Manjeet'));
 console.log(friends.includes('Mazharul'));
-console.log(friends.includes('Manjeet'))
+console.log(friends.includes('Manjeet'));
+
+friends.push(23);
+console.log(friends);
+
+if (friends.includes('Manjeet')){
+    console.log('You have a friend called Manjeet');
+}
 
 
 

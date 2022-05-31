@@ -190,6 +190,11 @@ console.log(friends);
 // removed an element of arry from start
 const newLength =friends.shift();
 console.log(friends);
+console.log(friends.indexOf('Mazharul'));
+console.log(friends.indexOf('Manjeet'));
+console.log(friends.includes('Mazharul'));
+console.log(friends.includes('Manjeet'))
+
 
 
 

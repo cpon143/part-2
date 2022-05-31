@@ -198,11 +198,6 @@ console.log(friends.includes('Manjeet'));
 friends.push(23);
 console.log(friends);
 
-if (friends.includes('Manjeet')){
-    console.log('You have a friend called Manjeet');
+if (friends.includes('Vishal')){
+    console.log('You have a friend called Vishal    ');
 }
-
-
-
-
-

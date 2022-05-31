@@ -153,7 +153,7 @@ const friend1 = 'Manjit';
 const friend2 = 'Shadab';
 const friend3 = 'Vishal';
 const friend4 = 'Munni';
-const friends = ['Manjeet', 'Shadab', 'Vishal', 'Munni','Mazharul'];
+const friends = ['Manjeet', 'Shadab', 'Vishal', 'Munni', 'Mazharul'];
 console.log(friends);
 console.log(friends[0]);
 console.log(friends[3]);
@@ -188,7 +188,7 @@ const remove = friends.pop();
 console.log(friends);
 
 // removed an element of arry from start
-const newLength =friends.shift();
+const newLength = friends.shift();
 console.log(friends);
 console.log(friends.indexOf('Mazharul'));
 console.log(friends.indexOf('Manjeet'));
@@ -198,6 +198,6 @@ console.log(friends.includes('Manjeet'));
 friends.push(23);
 console.log(friends);
 
-if (friends.includes('Vishal')){
-    console.log('You have a friend called Vishal    ');
+if (friends.includes('Vishal')) {
+    console.log('You have a friend called Vishal');
 }

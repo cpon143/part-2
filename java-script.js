@@ -149,11 +149,11 @@ console.log(checkwinner(500,200));*/
 
 /*************************************ARRAY**************************************** */
 
-/*const friend1 = 'Manjit';
+const friend1 = 'Manjit';
 const friend2 = 'Shadab';
 const friend3 = 'Vishal';
 const friend4 = 'Munni';
-const friends = ['Manjeet', 'Shadab', 'Vishal', 'Munni'];
+const friends = ['Manjeet', 'Shadab', 'Vishal', 'Munni','Mazharul'];
 console.log(friends);
 console.log(friends[0]);
 console.log(friends[3]);
@@ -168,14 +168,14 @@ console.log(friends);
 const firstName = 'Jonas';
 const jonas = [firstName, 'Manjeet', 2022 - 2002, friends];
 console.log(jonas);
-console.log(jonas.length);*/
+console.log(jonas.length);
 
 /*************Some basic operation of array*****************/
 
 // Insertion an element in array from end 
 // const friends = ['Manjeet','Shadab', 'Vishal', 'Vivek'];
-// console.log(friends);
-// friends.push('Mazharul');
+console.log(friends);
+friends.push('Mazharul');
 
 // insertion an element in array from first 
 // const friends = ['Manjeet', 'Shadab', 'Vishal', 'Vivek'];
@@ -184,19 +184,13 @@ console.log(jonas.length);*/
 // console.log(newLength);
 
 // removed an element of array from last
-// const friends = ['manjeet', 'Shadab', 'Vishal', 'Vivek'];
-// const remove = friends.pop();
-// console.log(friends);
+const remove = friends.pop();
+console.log(friends);
 
 // removed an element of arry from start
-const friends = ['manjeet', 'Shadab', 'Vishal', 'Vivek', 'Mazharul'];
-constnewLength =friends.shift();
+const newLength =friends.shift();
 console.log(friends);
 
 
-const colors = ['blue', 'green', 'white'];
-colors.forEach(function callback(value, index) {
-  console.log(value, index);
-});
-    
+
 

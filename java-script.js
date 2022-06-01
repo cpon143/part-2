@@ -233,9 +233,10 @@ const bonus = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(bills, tips, bonus);
 */
 
-const jonas = {
+const md = {
     firstName: 'Mazharul',
-    lastName:'Haque',
-    age:2022-2002,
-    friends:['Morning', 'Day', 'Evening'];
+    lastName: 'Haque',
+    age: 2022 - 2002,
+    friends: ['Morning', 'Day', 'Evening'],
 }
+console.log(md);

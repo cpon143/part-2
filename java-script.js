@@ -257,5 +257,10 @@ const nameKey = 'Name';
 console.log(johan['first' + nameKey]);
 console.log(johan['last' + nameKey]);
 
-
-prompt('what do you want to know');
+const intrestedIn = prompt('What do you want to know about John ? choose between firstName, lastName, age and friends');
+if (johan[intrestedIn]){
+    console.log(johan[intrestedIn]);
+}
+else{
+    console.log('Wrong request ! choose between firstName, lastName, age and friends')
+}

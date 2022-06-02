@@ -243,7 +243,7 @@ const jomas = [
 ]
 
 /************It's objects************ */
-const johan = {
+/*const johan = {
     firstName: 'Mazharul',
     lastName: 'Haque',
     age: 2022 - 2002,
@@ -267,4 +267,14 @@ else{
 
 johan.location='Isuapur';
 johan['instagram']='@md_mazharul_haque';
-console.log(johan);
+console.log(johan);*/
+
+const johan = {
+    firstName: 'Mazharul',
+    lastName: 'Haque',
+    birthYear: 2002,
+    job: 'teacher',
+    friends: ['Vishal', 'Shadab', 'Manjeet'],
+    hasDriverLicense:true,
+}
+

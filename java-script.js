@@ -233,10 +233,19 @@ const bonus = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(bills, tips, bonus);
 */
 
+/*****************Objects advanced version of array********** */
+
+const jomas=[
+    'Shadab',
+    'Hussain',
+    2022-2002,
+    ['Vishal', 'Shadab','Manjeet']
+]
+
 const md = {
     firstName: 'Mazharul',
     lastName: 'Haque',
     age: 2022 - 2002,
-    friends: ['Morning', 'Day', 'Evening'],
+    friends: ['Vishal', 'Shadab','Manjeet'],
 }
 console.log(md);

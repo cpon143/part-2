@@ -276,5 +276,11 @@ const johan = {
     job: 'teacher',
     friends: ['Vishal', 'Shadab', 'Manjeet'],
     hasDriverLicense:true,
+
+    calcAge: function (birthYear){
+        return 2022 - birthYear;
+    }
 }
+console.log(johan.calcAge(2002));
+console.log(johan['calcAge'] (2002));
 

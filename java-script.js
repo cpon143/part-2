@@ -234,18 +234,28 @@ console.log(bills, tips, bonus);
 */
 
 /*****************Objects advanced version of array********** */
-
-const jomas=[
+/************It's array************ */
+const jomas = [
     'Shadab',
     'Hussain',
-    2022-2002,
-    ['Vishal', 'Shadab','Manjeet']
+    2022 - 2002,
+    ['Vishal', 'Shadab', 'Manjeet']
 ]
 
-const md = {
+/************It's objects************ */
+const johan = {
     firstName: 'Mazharul',
     lastName: 'Haque',
     age: 2022 - 2002,
-    friends: ['Vishal', 'Shadab','Manjeet'],
+    friends: ['Vishal', 'Shadab', 'Manjeet'],
 }
-console.log(md);
+console.log(johan);
+console.log(johan.lastName);
+console.log(johan['lastName']);
+
+const nameKey = 'Name';
+console.log(johan['first' + nameKey]);
+console.log(johan['last' + nameKey]);
+
+
+prompt('what do you want to know');

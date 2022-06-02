@@ -264,3 +264,7 @@ if (johan[intrestedIn]){
 else{
     console.log('Wrong request ! choose between firstName, lastName, age and friends')
 }
+
+johan.location='Isuapur';
+johan['instagram']='@md_mazharul_haque';
+console.log(johan);

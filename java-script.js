@@ -277,17 +277,28 @@ const johan = {
     friends: ['Vishal', 'Shadab', 'Manjeet'],
     hasDriverLicense: true,
 
+    // calcAge: function () {
+    //     // console.log(this);
+    //     return 2022 - this.birthYear;
+    // }
+
     calcAge: function () {
-        return 2022 - this.birthYear;
+        this.age = 2022 - this.birthYear;
+        return this.age;
     }
 }
 console.log(johan.calcAge());
+
+console.log(johan.calcAge());
+console.log(johan.calcAge());
+console.log(johan.calcAge());
+
 // console.log(johan['calcAge'] (2002));
 
 
 /*****************************For loop */
-let number = 100;
-for(number=0; number<=100;number++){
-    console.log('I love JavaScript');
-}
+// let number = 100;
+// for(number=0; number<=100;number++){
+//     console.log('I love JavaScript');
+// }
 

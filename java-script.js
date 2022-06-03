@@ -278,9 +278,9 @@ const johan = {
     hasDriverLicense:true,
 
     calcAge: function (birthYear){
-        return 2022 - birthYear;
+        return 2022 - this.birthYear;
     }
 }
-console.log(johan.calcAge(2002));
-console.log(johan['calcAge'] (2002));
+console.log(johan.calcAge());
+// console.log(johan['calcAge'] (2002));
 

@@ -275,12 +275,19 @@ const johan = {
     birthYear: 2002,
     job: 'teacher',
     friends: ['Vishal', 'Shadab', 'Manjeet'],
-    hasDriverLicense:true,
+    hasDriverLicense: true,
 
-    calcAge: function (birthYear){
+    calcAge: function () {
         return 2022 - this.birthYear;
     }
 }
 console.log(johan.calcAge());
 // console.log(johan['calcAge'] (2002));
+
+
+/*****************************For loop */
+let number = 100;
+for(number=0; number<=100;number++){
+    console.log('I love JavaScript');
+}
 

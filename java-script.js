@@ -289,7 +289,7 @@ const johan = {
         return this.age;
     },
     getSummary: function () {
-        return `${this.firstName} is a ${this.calcAge} -year old ${johan.job} and he has${this.hasDriverLicense ? 'a' : 'no'} driver's license .`
+        return `${this.firstName} is a ${this.age}-year old ${johan.job} and he has ${this.hasDriverLicense ? 'a' : 'no'} driver's license .`
     }
 }
 console.log(johan.calcAge());

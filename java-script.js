@@ -267,7 +267,9 @@ else{
 
 johan.location='Isuapur';
 johan['instagram']='@md_mazharul_haque';
-console.log(johan);*/
+console.log(johan);
+console.log(`${johan.firstName} has ${johan.friends.length} friends and his best friend is called ${johan.friends[0]}`);
+*/
 
 const johan = {
     firstName: 'Mazharul',
@@ -285,20 +287,17 @@ const johan = {
     calcAge: function () {
         this.age = 2022 - this.birthYear;
         return this.age;
+    },
+    getSummary: function () {
+        return `${this.firstName} is a ${this.calcAge} -year old ${johan.job} and he has${this.hasDriverLicense ? 'a' : 'no'} driver's license .`
     }
 }
 console.log(johan.calcAge());
 
-console.log(johan.calcAge());
-console.log(johan.calcAge());
-console.log(johan.calcAge());
+console.log(johan.age);
+console.log(johan.age);
+console.log(johan.age);
 
-// console.log(johan['calcAge'] (2002));
+// console.log(`${johan.firstName} is a ${johan.calcAge(this.age)} old ${johan.job}, and he has a driver's license`)
 
-
-/*****************************For loop */
-// let number = 100;
-// for(number=0; number<=100;number++){
-//     console.log('I love JavaScript');
-// }
-
+console.log(johan.getSummary());

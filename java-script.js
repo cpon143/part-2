@@ -271,7 +271,7 @@ console.log(johan);
 console.log(`${johan.firstName} has ${johan.friends.length} friends and his best friend is called ${johan.friends[0]}`);
 */
 
-const johan = {
+/*const johan = {
     firstName: 'Mazharul',
     lastName: 'Haque',
     birthYear: 2002,
@@ -297,7 +297,36 @@ console.log(johan.calcAge());
 console.log(johan.age);
 console.log(johan.age);
 console.log(johan.age);
+console.log(johan.getSummary());
+
 
 // console.log(`${johan.firstName} is a ${johan.calcAge(this.age)} old ${johan.job}, and he has a driver's license`)
+*/
 
-console.log(johan.getSummary());
+
+const mark = {
+    fullName: 'Mark Miller',
+    mass: 78,
+    height: 1.69,
+    calcBMI: function () {
+        this.bmi = this.mass / this.height ** 2;
+        return this.bmi;
+    }
+
+};
+const johan = {
+    fullName: 'johan Smith',
+    mass: 78,
+    height: 1.69,
+    calcBMI: function () {
+        this.bmi = this.mass / this.height ** 2;
+        return this.bmi;
+    }
+};
+
+
+// Log to the console who has the higher BMI, together with the full name and the
+// respective BMI. Example: "John's BMI (28.3) is higher than Mark's (23.9)!"
+mark.calcBMI();
+johan.calcBMI();
+console.log(`"Johan's BMI (${johan.bmi}) is ${(johan.bmi >= mark.bmi) ? 'higher' : 'lower'} than Mark's BMI ${mark.bmi}"`)

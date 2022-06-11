@@ -304,7 +304,7 @@ console.log(johan.getSummary());
 */
 
 
-const mark = {
+/*const mark = {
     fullName: 'Mark Miller',
     mass: 78,
     height: 1.69,
@@ -337,4 +337,14 @@ if(johan.bmi>mark.bmi){
 }
 else{  
     console.log(`"${mark.fullName}'s BMI (${mark.bmi}) is higher than ${johan.fullName}'s BMI (${johan.bmi})"`)
+}*/
+
+/*******************for loop*********************** */
+
+for (let i=1; i<=5; i++){
+    
+    for(let j=1; j<=i; j++){
+        console.log(`*`)
+    }
+    console.log(" ");
 }

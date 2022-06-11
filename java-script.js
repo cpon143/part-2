@@ -329,4 +329,4 @@ const johan = {
 // respective BMI. Example: "John's BMI (28.3) is higher than Mark's (23.9)!"
 mark.calcBMI();
 johan.calcBMI();
-console.log(`"Johan's BMI (${johan.bmi}) is ${(johan.bmi >= mark.bmi) ? 'higher' : 'lower'} than Mark's BMI ${mark.bmi}"`)
+console.log(`"Johan's BMI (${johan.bmi}) is ${(johan.bmi >= mark.bmi) ? 'higher' : 'lower'} than Mark's BMI (${mark.bmi})"`)

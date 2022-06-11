@@ -316,8 +316,8 @@ const mark = {
 };
 const johan = {
     fullName: 'johan Smith',
-    mass: 78,
-    height: 1.69,
+    mass: 92,
+    height: 1.95,
     calcBMI: function () {
         this.bmi = this.mass / this.height ** 2;
         return this.bmi;
@@ -329,4 +329,12 @@ const johan = {
 // respective BMI. Example: "John's BMI (28.3) is higher than Mark's (23.9)!"
 mark.calcBMI();
 johan.calcBMI();
-console.log(`"Johan's BMI (${johan.bmi}) is ${(johan.bmi >= mark.bmi) ? 'higher' : 'lower'} than Mark's BMI (${mark.bmi})"`)
+console.log(mark.bmi, johan.bmi)
+console.log(`"${johan.fullName}'s BMI (${johan.bmi}) is ${(johan.bmi >= mark.bmi) ? 'higher' : 'lower'} than ${mark.fullName}'s BMI (${mark.bmi})"`)
+
+if(johan.bmi>mark.bmi){
+    console.log(`"${johan.fullName}'s BMI (${johan.bmi}) is higher than ${mark.fullName}'s BMI (${mark.bmi})"`)
+}
+else{  
+    console.log(`"${mark.fullName}'s BMI (${mark.bmi}) is higher than ${johan.fullName}'s BMI (${johan.bmi})"`)
+}

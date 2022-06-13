@@ -344,11 +344,17 @@ const johan = [
     'Shadab',
     'Hussain',
     2022 - 2002,
-    ['Vishal', 'Shadab', 'Manjeet']
+    true,
+    ['Vishal', 'Shadab', 'Manjeet'],
 ]
 
+const types =  [];
 
-for (let i=1; i<=5; i++){
+
+for (let i=0; i<johan.length; i++){
     
-    console.log(`${johan} ${johan.length}  ${i}`);
+    console.log(johan[i], typeof johan[i]);
+    
+    types[i]=typeof johan[i];
 }
+console.log(types);

@@ -343,8 +343,8 @@ else{
 const johan = [
     'Shadab',
     'Hussain',
-    'teacher',
     2022 - 2002,
+    'teacher',
     true,
     ['Vishal', 'Shadab', 'Manjeet'],
 ]
@@ -376,7 +376,7 @@ console.log(ages);
 
 console.log('---------Only String---------');
 for (let i = 0; i < johan.length; i++) {
-    if (typeof johan[i] !== 'string') continue;
+    if (typeof johan[i] !== 'number') continue;
 
     console.log(johan[i], typeof johan[i]);
 }

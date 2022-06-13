@@ -343,18 +343,46 @@ else{
 const johan = [
     'Shadab',
     'Hussain',
+    'teacher',
     2022 - 2002,
     true,
     ['Vishal', 'Shadab', 'Manjeet'],
 ]
 
-const types =  [];
+const types = [];
 
+// console.log(johan[0]);
+// console.log(johan[0]);
+// ......
+// console.log(johan[0]);
 
-for (let i=0; i<johan.length; i++){
-    
-    console.log(johan[i], typeof johan[i]);
-    
-    types[i]=typeof johan[i];
+// for (let i = 0; i < johan.length; i++) {
+
+//     console.log(johan[i], typeof johan[i]);
+
+//     // types[i]=typeof johan[i];
+//     types.push(typeof johan[i]);122
+// }
+// console.log(types);
+
+const years = [1999, 2002, 2003, 2006, 2001];
+const ages = [];
+for (let i = 0; i < years.length; i++) {
+    ages.push(2037 - years[i]);
 }
-console.log(types);
+console.log(ages);
+
+// Break and continue
+
+console.log('---------Only String---------');
+for (let i = 0; i < johan.length; i++) {
+    if (typeof johan[i] !== 'string') continue;
+
+    console.log(johan[i], typeof johan[i]);
+}
+console.log('---------Break with number---------');
+for (let i = 0; i < johan.length; i++) {
+    if (typeof johan[i] == 'number') break;
+
+    console.log(johan[i], typeof johan[i]);
+}

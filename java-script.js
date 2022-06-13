@@ -149,33 +149,33 @@ console.log(checkwinner(500,200));*/
 
 /*************************************ARRAY**************************************** */
 
-const friend1 = 'Manjit';
-const friend2 = 'Shadab';
-const friend3 = 'Vishal';
-const friend4 = 'Munni';
-const friends = ['Manjeet', 'Shadab', 'Vishal', 'Munni', 'Mazharul'];
-console.log(friends);
-console.log(friends[0]);
-console.log(friends[3]);
+// const friend1 = 'Manjit';
+// const friend2 = 'Shadab';
+// const friend3 = 'Vishal';
+// const friend4 = 'Munni';
+// const friends = ['Manjeet', 'Shadab', 'Vishal', 'Munni', 'Mazharul'];
+// console.log(friends);
+// console.log(friends[0]);
+// console.log(friends[3]);
 
-const year = new Array(2002, 2003, 2000, 2005, 2022);
-console.log(year);
-console.log(friends.length);
-console.log(friends[friends.length - 2]);
-friends[3] = 'Sonu';
-console.log(friends);
+// const year = new Array(2002, 2003, 2000, 2005, 2022);
+// console.log(year);
+// console.log(friends.length);
+// console.log(friends[friends.length - 2]);
+// friends[3] = 'Sonu';
+// console.log(friends);
 
-const firstName = 'Jonas';
-const jonas = [firstName, 'Manjeet', 2022 - 2002, friends];
-console.log(jonas);
-console.log(jonas.length);
+// const firstName = 'Jonas';
+// const jonas = [firstName, 'Manjeet', 2022 - 2002, friends];
+// console.log(jonas);
+// console.log(jonas.length);
 
 /*************Some basic operation of array*****************/
 
 // Insertion an element in array from end 
 // const friends = ['Manjeet','Shadab', 'Vishal', 'Vivek'];
-console.log(friends);
-friends.push('Mazharul');
+// console.log(friends);
+// friends.push('Mazharul');
 
 // insertion an element in array from first 
 // const friends = ['Manjeet', 'Shadab', 'Vishal', 'Vivek'];
@@ -184,23 +184,23 @@ friends.push('Mazharul');
 // console.log(newLength);
 
 // removed an element of array from last
-const remove = friends.pop();
-console.log(friends);
+// const remove = friends.pop();
+// console.log(friends);
 
 // removed an element of arry from start
-const newLength = friends.shift();
-console.log(friends);
-console.log(friends.indexOf('Mazharul'));
-console.log(friends.indexOf('Manjeet'));
-console.log(friends.includes('Mazharul'));
-console.log(friends.includes('Manjeet'));
+// const newLength = friends.shift();
+// console.log(friends);
+// console.log(friends.indexOf('Mazharul'));
+// console.log(friends.indexOf('Manjeet'));
+// console.log(friends.includes('Mazharul'));
+// console.log(friends.includes('Manjeet'));
 
-friends.push(23);
-console.log(friends);
+// friends.push(23);
+// console.log(friends);
 
-if (friends.includes('Vishal')) {
-    console.log('You have a friend called Vishal');
-}
+// if (friends.includes('Vishal')) {
+//     console.log('You have a friend called Vishal');
+// }
 
 /****************part 2 test 2 */
 /*
@@ -235,12 +235,12 @@ console.log(bills, tips, bonus);
 
 /*****************Objects advanced version of array********** */
 /************It's array************ */
-const jomas = [
-    'Shadab',
-    'Hussain',
-    2022 - 2002,
-    ['Vishal', 'Shadab', 'Manjeet']
-]
+// const jomas = [
+//     'Shadab',
+//     'Hussain',
+//     2022 - 2002,
+//     ['Vishal', 'Shadab', 'Manjeet']
+// ]
 
 /************It's objects************ */
 /*const johan = {
@@ -340,11 +340,15 @@ else{
 }*/
 
 /*******************for loop*********************** */
+const johan = [
+    'Shadab',
+    'Hussain',
+    2022 - 2002,
+    ['Vishal', 'Shadab', 'Manjeet']
+]
+
 
 for (let i=1; i<=5; i++){
     
-    for(let j=1; j<=i; j++){
-        console.log(`*`)
-    }
-    console.log(" ");
+    console.log(`${johan} ${johan.length}  ${i}`);
 }

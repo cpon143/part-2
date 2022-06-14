@@ -410,6 +410,6 @@ const johan = [
 // in index 5, 4..........1
 
 for (let counter = johan.length-1; counter >=0; counter--) {
-    // console.log(johan[counter]);
+    console.log(johan[counter]);
 
 }

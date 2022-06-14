@@ -410,6 +410,13 @@ const johan = [
 // in index 5, 4..........1
 
 for (let counter = johan.length-1; counter >=0; counter--) {
-    console.log(johan[counter]);
+    console.log(counter, johan[counter]);
 
+}
+
+for(let exercise=0; exercise<4; exercise++){
+    console.log(`------String-------${exercise}`);
+    for(let rep=0; rep<6; rep++){
+        console.log(`Lifting weight repetation 🧬 ${rep}`);
+    }
 }

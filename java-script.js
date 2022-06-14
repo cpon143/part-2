@@ -421,4 +421,19 @@ for(let exercise=0; exercise<4; exercise++){
     }
 }*/
 
+/********While loops*************** */
 
+for (let rep = 0; rep <= 6; rep++) {
+    // console.log(`it's for loops ${rep}`);
+}
+
+let res = 0;
+while (res <= 6) {
+    // console.log(`It's while loops ${res}`)
+    res++;
+}
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+while(dice!==6){
+// console.log('You can rolling dice ${dice}')
+}

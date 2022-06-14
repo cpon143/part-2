@@ -399,7 +399,7 @@ for (let i = 0; i < johan.length; i++) {
 /*************Loops backword and loops in loops************************ */
 // we print this array from end to start
 
-const johan = [
+/*const johan = [
     'Shadab',
     'Hussain',
     2022 - 2002,
@@ -417,6 +417,8 @@ for (let counter = johan.length-1; counter >=0; counter--) {
 for(let exercise=0; exercise<4; exercise++){
     console.log(`------String-------${exercise}`);
     for(let rep=0; rep<6; rep++){
-        console.log(`Lifting weight repetation 🧬 ${rep}`);
+        console.log(`exercise ${exercise} Lifting weight repetation 🧬 ${rep}`);
     }
-}
+}*/
+
+

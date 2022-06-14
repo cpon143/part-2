@@ -340,16 +340,16 @@ else{
 }*/
 
 /*******************for loop*********************** */
-const johan = [
-    'Shadab',
-    'Hussain',
-    2022 - 2002,
-    'teacher',
-    true,
-    ['Vishal', 'Shadab', 'Manjeet'],
-]
+// const johan = [
+//     'Shadab',
+//     'Hussain',
+//     2022 - 2002,
+//     'teacher',
+//     true,
+//     ['Vishal', 'Shadab', 'Manjeet'],
+// ]
 
-const types = [];
+// const types = [];
 
 // console.log(johan[0]);
 // console.log(johan[0]);
@@ -365,18 +365,27 @@ const types = [];
 // }
 // console.log(types);
 
-const years = [1999, 2002, 2003, 2006, 2001];
+/*const years = [1999, 2002, 2003, 2006, 2001];
 const ages = [];
 for (let i = 0; i < years.length; i++) {
     ages.push(2037 - years[i]);
 }
-console.log(ages);
+console.log(ages);*/
 
 // Break and continue
 
+const johan = [
+    'Shadab',
+    'Hussain',
+    2022 - 2002,
+    'teacher',
+    true,
+    ['Vishal', 'Shadab', 'Manjeet'],
+]
+
 console.log('---------Only String---------');
 for (let i = 0; i < johan.length; i++) {
-    if (typeof johan[i] !== 'number') continue;
+    if (typeof johan[i] !== 'string') continue;
 
     console.log(johan[i], typeof johan[i]);
 }
@@ -386,3 +395,5 @@ for (let i = 0; i < johan.length; i++) {
 
     console.log(johan[i], typeof johan[i]);
 }
+
+/*************Loops backword and loops in loops************************ */

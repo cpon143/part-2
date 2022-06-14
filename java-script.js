@@ -374,16 +374,16 @@ console.log(ages);*/
 
 // Break and continue
 
-const johan = [
-    'Shadab',
-    'Hussain',
-    2022 - 2002,
-    'teacher',
-    true,
-    ['Vishal', 'Shadab', 'Manjeet'],
-]
+// const johan = [
+//     'Shadab',
+//     'Hussain',
+//     2022 - 2002,
+//     'teacher',
+//     true,
+//     ['Vishal', 'Shadab', 'Manjeet'],
+// ];
 
-console.log('---------Only String---------');
+/*console.log('---------Only String---------');
 for (let i = 0; i < johan.length; i++) {
     if (typeof johan[i] !== 'string') continue;
 
@@ -394,6 +394,22 @@ for (let i = 0; i < johan.length; i++) {
     if (typeof johan[i] == 'number') break;
 
     console.log(johan[i], typeof johan[i]);
-}
+}*/
 
 /*************Loops backword and loops in loops************************ */
+// we print this array from end to start
+
+const johan = [
+    'Shadab',
+    'Hussain',
+    2022 - 2002,
+    true,
+    ['Vishal', 'Shadab', 'Manjeet'],
+];
+// like
+// in index 5, 4..........1
+
+for (let counter = johan.length-1; counter >=0; counter--) {
+    // console.log(johan[counter]);
+
+}

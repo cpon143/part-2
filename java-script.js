@@ -434,6 +434,10 @@ while (res <= 6) {
 }
 
 let dice = Math.trunc(Math.random() * 6) + 1;
-while(dice!==6){
-// console.log('You can rolling dice ${dice}')
+while (dice !== 6) {
+    console.log(`You can rolling dice ${dice}`);
+    dice = Math.trunc(Math.random() * 6) + 1;
+    if(dice===6){
+        console.log('End of the loop');
+    }
 }

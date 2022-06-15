@@ -423,13 +423,13 @@ for(let exercise=0; exercise<4; exercise++){
 
 /********While loops*************** */
 
-for (let rep = 0; rep <= 6; rep++) {
-    // console.log(`it's for loops ${rep}`);
+/*for (let rep = 0; rep <= 6; rep++) {
+    console.log(`it's for loops ${rep}`);
 }
 
 let res = 0;
 while (res <= 6) {
-    // console.log(`It's while loops ${res}`)
+    console.log(`It's while loops ${res}`)
     res++;
 }
 
@@ -440,4 +440,34 @@ while (dice !== 6) {
     if (dice === 6) {
         console.log('End of the loop');
     }
+}*/
+
+/*********************Challenge four '4' */
+
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips = [];
+let totals = [];
+
+const calcTip = function (bills) {
+    return bills <= 300 && bills >= 50 ? bills * 0.15 : bills * 0.2;
 }
+
+
+for (i = 0; i < bills.length; i++) {
+    const tip = calcTip(bills[i]);
+    tips.push(tip);
+    totals.push(tip + bills[i]);
+}
+console.log(bills, tips, totals);
+
+const calcAverage = function (arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum/ arr.length;
+}
+console.log(calcAverage([2, 3, 7]));
+console.log(calcAverage(bills));
+console.log(calcAverage(tips));
+console.log(calcAverage(totals));
